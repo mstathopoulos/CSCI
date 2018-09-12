@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>To-Do List</title>
+</head>
+<body>
+
+
+<form name="form" method="post" action="./MyServlet">
+
+	<input type="checkbox" name="insert" value="insert"> I want to add an item to my to-do list:<br>
+	<br>
+  Item:<br>
+  <input type="text" name="Item">
+  <br>
+  Importance, high or low:<br>
+  <input type="text" name="Importance">
+  <br>
+  Date:<br>
+  <input type="text" name="Due Date">
+  <br>
+  
+  OR 
+  
+  
+  <input type="checkbox" name="delete" value="delete"> I want to delete an item from my to do list:<br>
+  <br>
+  Item to delete:<br>
+  <input type="text" name="DeleteItem">
+  <br>
+  
+  
+  OR
+  
+  
+  <input type="checkbox" name="view" value="view"> I want to view all items in my to do list<br>
+  <br>
+  
+  <INPUT TYPE="SUBMIT" VALUE="submit">
+</form>
+
+</body>
+</html>
