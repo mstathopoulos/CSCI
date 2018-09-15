@@ -35,6 +35,7 @@ public class MyServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		try {
+			
 			Class.forName("com.mysql.jdbc.Driver");
 			response.getWriter().println("To-Do List");
 		} 
